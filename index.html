@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CIOT Express — Gestão administrativa para transportadores. Notas fiscais, financeiro e operação organizados por especialistas.">
+  <meta property="og:title" content="CIOT Express Gestão para Transportadores">
+  <meta property="og:description" content="Você cuida das entregas. Nós cuidamos da sua empresa.">
+  <title>CIOT Express | Gestão para Transportadores</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="wrap header__inner">
+      <a href="#" class="header__logo" aria-label="CIOT Express">
+        <img class="header__logo-img header__logo-img--light" src="assets/logo-light.svg" alt="" width="170" height="32">
+        <img class="header__logo-img header__logo-img--dark" src="assets/logo.svg" alt="" width="170" height="32">
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#dores">Desafios</a>
+        <a href="#solucao">Solução</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+      <a href="#" class="header__cta" data-whatsapp="header">Falar com Especialista</a>
+      <button class="header__toggle" id="menuBtn" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SEÇÃO 1 — Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__media">
+      <img src="assets/hero-fiorino-motorista.png" alt="Motorista profissional ao lado de Fiorino branca em operação organizada" width="1920" height="1080">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="wrap hero__body">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">Gestão administrativa para transportadores</p>
+        <h1 class="hero__title">Você cuida das entregas.<br>Nós cuidamos da sua empresa.</h1>
+        <p class="hero__lead">Notas fiscais, financeiro, administração e operação. Tudo organizado por especialistas para você focar apenas em transportar e faturar.</p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary" data-whatsapp="hero-especialista">Falar com um Especialista</a>
+          <a href="#solucao" class="btn btn--ghost">Conhecer a CIOT Express</a>
+        </div>
+      </div>
+      <aside class="hero__panel" aria-label="Painel financeiro">
+        <p class="hero__panel-label">Resumo financeiro</p>
+        <div class="hero__panel-row">
+          <span>Recebimentos do mês</span>
+          <strong>R$ 28.450,00</strong>
+        </div>
+        <div class="hero__panel-row">
+          <span>Notas emitidas</span>
+          <strong>47</strong>
+        </div>
+        <div class="hero__panel-row">
+          <span>Pendências</span>
+          <strong class="hero__panel-ok">Em dia</strong>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 2 — Dores -->
+  <section class="dores section" id="dores">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="section-eyebrow">O dia a dia do transportador</p>
+        <h2 class="section-title">Quanto tempo você perde com burocracia?</h2>
+      </header>
+    </div>
+    <div class="dores__list">
+      <article class="dores__card">
+        <div class="dores__card-img">
+          <img src="assets/dor-notas-fiscais.png" alt="Motorista emitindo notas fiscais manualmente" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">01</span>
+          <h3>Emitir notas fiscais</h3>
+          <p>Parar a rota, abrir o computador, preencher dados, corrigir erros e perder horas que poderiam ser entregas.</p>
+        </div>
+      </article>
+      <article class="dores__card dores__card--reverse">
+        <div class="dores__card-img">
+          <img src="assets/dor-pagamentos.png" alt="Transportador controlando pagamentos e despesas" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">02</span>
+          <h3>Controlar pagamentos</h3>
+          <p>Combustível, pedágio, manutenção, seguro — tudo misturado na conta pessoal, sem saber o custo real de cada viagem.</p>
+        </div>
+      </article>
+      <article class="dores__card">
+        <div class="dores__card-img">
+          <img src="assets/dor-cobrar-clientes.png" alt="Motorista cobrando clientes pelo telefone" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">03</span>
+          <h3>Cobrar clientes</h3>
+          <p>Entregas feitas, prazo vencido e ninguém para cobrar com método. O dinheiro demora a entrar.</p>
+        </div>
+      </article>
+      <article class="dores__card dores__card--reverse">
+        <div class="dores__card-img">
+          <img src="assets/dor-documentos.png" alt="Documentos desorganizados no veículo" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">04</span>
+          <h3>Organizar documentos</h3>
+          <p>Contratos, CNH, CRLV, comprovantes espalhados. Na hora da fiscalização ou da renovação, o caos aparece.</p>
+        </div>
+      </article>
+      <article class="dores__card">
+        <div class="dores__card-img">
+          <img src="assets/dor-recebimentos.png" alt="Conferência de recebimentos e extratos" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">05</span>
+          <h3>Conferir recebimentos</h3>
+          <p>Depósitos, PIX e boletos sem conciliação. Você não sabe se recebeu tudo o que tinha direito.</p>
+        </div>
+      </article>
+      <article class="dores__card dores__card--reverse">
+        <div class="dores__card-img">
+          <img src="assets/dor-planilhas.png" alt="Planilhas financeiras desorganizadas" loading="lazy" width="480" height="320">
+        </div>
+        <div class="dores__card-body">
+          <span class="dores__card-num">06</span>
+          <h3>Fazer planilhas</h3>
+          <p>Planilhas que ninguém atualiza, fórmulas quebradas e zero visão clara de quanto o negócio realmente lucra.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 3 — Solução -->
+  <section class="solucao section section--gray" id="solucao">
+    <div class="wrap solucao__head">
+      <p class="section-eyebrow">A solução CIOT Express</p>
+      <h2 class="section-title section-title--lg">Sua empresa organizada sem contratar funcionários.</h2>
+    </div>
+    <div class="solucao__stage">
+      <div class="solucao__image">
+        <img src="assets/motorista-organizado.png" alt="Motorista em rota com gestão organizada" width="1400" height="780" loading="lazy">
+      </div>
+      <div class="solucao__modules">
+        <div class="solucao__module">
+          <span class="solucao__module-label">Módulo 01</span>
+          <h3>Financeiro</h3>
+          <p>Fluxo de caixa, recebimentos e pagamentos sob controle.</p>
+        </div>
+        <div class="solucao__module">
+          <span class="solucao__module-label">Módulo 02</span>
+          <h3>Notas Fiscais</h3>
+          <p>Emissão correta e no prazo, sem interromper sua operação.</p>
+        </div>
+        <div class="solucao__module">
+          <span class="solucao__module-label">Módulo 03</span>
+          <h3>Operação</h3>
+          <p>Apoio nas rotinas do dia a dia para manter tudo funcionando.</p>
+        </div>
+        <div class="solucao__module">
+          <span class="solucao__module-label">Módulo 04</span>
+          <h3>Administrativo</h3>
+          <p>Documentos, contratos e obrigações sempre em ordem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 4 — Comparação -->
+  <section class="comparacao section" id="comparacao">
+    <div class="comparacao__grid">
+      <div class="comparacao__col comparacao__col--antes">
+        <div class="comparacao__media">
+          <img src="assets/comparacao-sozinho.png" alt="Transportador sobrecarregado fazendo tudo sozinho" width="800" height="600" loading="lazy">
+        </div>
+        <div class="comparacao__content">
+          <p class="comparacao__tag">Sem gestão</p>
+          <h3>Fazendo tudo sozinho</h3>
+          <ul>
+            <li>Pilhas de papel e documentos perdidos</li>
+            <li>Planilhas desatualizadas e confusas</li>
+            <li>Estresse com prazos e cobranças</li>
+            <li>Horas paradas que não geram receita</li>
+          </ul>
+        </div>
+      </div>
+      <div class="comparacao__col comparacao__col--depois">
+        <div class="comparacao__media">
+          <img src="assets/cliente-organizado.png" alt="Cliente CIOT Express com gestão organizada" width="800" height="600" loading="lazy">
+        </div>
+        <div class="comparacao__content">
+          <p class="comparacao__tag comparacao__tag--accent">Com a CIOT Express</p>
+          <h3>Com gestão profissional</h3>
+          <ul>
+            <li>Tudo organizado por especialistas</li>
+            <li>Relatórios claros e financeiro em dia</li>
+            <li>Mais tempo para entregas</li>
+            <li>Mais lucro, menos dor de cabeça</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 5 — Diferenciais -->
+  <section class="diferenciais section section--gray" id="diferenciais">
+    <div class="wrap">
+      <header class="section-head section-head--center">
+        <p class="section-eyebrow">Por que a CIOT Express</p>
+        <h2 class="section-title">Gestão feita por quem entende de transporte.</h2>
+      </header>
+      <div class="diferenciais__grid">
+        <article class="diferenciais__item">
+          <span class="diferenciais__num">01</span>
+          <h3>Atendimento humano</h3>
+          <p>Pessoas de verdade no WhatsApp e no telefone. Sem robôs, sem fila, sem menu infinito.</p>
+        </article>
+        <article class="diferenciais__item">
+          <span class="diferenciais__num">02</span>
+          <h3>Gestão especializada</h3>
+          <p>Equipe dedicada ao dia a dia de motoristas autônomos, agregados e pequenas frotas.</p>
+        </article>
+        <article class="diferenciais__item">
+          <span class="diferenciais__num">03</span>
+          <h3>Economia operacional</h3>
+          <p>Sem salários, encargos ou escritório. Você paga pela gestão, não por estrutura.</p>
+        </article>
+        <article class="diferenciais__item">
+          <span class="diferenciais__num">04</span>
+          <h3>Processos organizados</h3>
+          <p>Metodologia padronizada para notas, financeiro e documentos — sempre no mesmo ritmo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 6 — Depoimentos -->
+  <section class="depoimentos section" id="depoimentos">
+    <div class="wrap">
+      <header class="section-head section-head--center">
+        <p class="section-eyebrow">Quem já confia</p>
+        <h2 class="section-title">Transportadores que recuperaram tempo e organização.</h2>
+      </header>
+      <div class="depoimentos__grid">
+        <blockquote class="depoimentos__item">
+          <div class="depoimentos__photo">
+            <img src="assets/depoimento-roberto.png" alt="Roberto Carvalho" width="120" height="120" loading="lazy">
+          </div>
+          <p class="depoimentos__text">"Antes eu perdia meio dia por semana com nota e planilha. Hoje foco nas entregas. Meu faturamento subiu porque voltei a rodar."</p>
+          <footer>
+            <cite>Roberto Carvalho</cite>
+            <span>Motorista autônomo · Fiorino · São Paulo</span>
+          </footer>
+        </blockquote>
+        <blockquote class="depoimentos__item">
+          <div class="depoimentos__photo">
+            <img src="assets/depoimento-marcos.png" alt="Marcos Silva" width="120" height="120" loading="lazy">
+          </div>
+          <p class="depoimentos__text">"Tenho três vans e nunca soube quanto cada uma lucrava. A CIOT Express organizou tudo. Hoje tenho relatório e sei onde investir."</p>
+          <footer>
+            <cite>Marcos Silva</cite>
+            <span>Pequena frota · Curitiba</span>
+          </footer>
+        </blockquote>
+        <blockquote class="depoimentos__item">
+          <div class="depoimentos__photo">
+            <img src="assets/depoimento-ana.png" alt="Ana Ferreira" width="120" height="120" loading="lazy">
+          </div>
+          <p class="depoimentos__text">"Parece ter uma secretária exclusiva. Qualquer dúvida sobre pagamento ou documento, resolvido na hora pelo WhatsApp."</p>
+          <footer>
+            <cite>Ana Ferreira</cite>
+            <span>Transportadora agregada · Belo Horizonte</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 7 — CTA -->
+  <section class="cta section" id="contato">
+    <div class="wrap cta__inner">
+      <h2 class="cta__title">Chega de perder tempo com burocracia.</h2>
+      <p class="cta__lead">A CIOT Express assume sua gestão para que você possa focar em crescer.</p>
+      <a href="#" class="btn btn--primary btn--lg" data-whatsapp="cta-final">Quero Organizar Minha Empresa</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="CIOT Express" width="170" height="32">
+        <p>Gestão administrativa para motoristas autônomos, agregados e pequenas frotas.</p>
+      </div>
+      <nav class="footer__nav">
+        <h4>Empresa</h4>
+        <a href="#solucao">Solução</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+      <nav class="footer__nav">
+        <h4>Atendimento</h4>
+        <a href="#" data-whatsapp="footer" class="footer__whatsapp">WhatsApp</a>
+        <a href="mailto:contato@ciotexpress.com.br">contato@ciotexpress.com.br</a>
+      </nav>
+    </div>
+    <div class="footer__bar">
+      <div class="wrap footer__bar-inner">
+        <p>&copy; 2026 CIOT Express Gestão para Transportadores</p>
+        <a href="#" data-whatsapp="footer">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="wa-fixed" aria-label="WhatsApp" data-whatsapp="float">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
