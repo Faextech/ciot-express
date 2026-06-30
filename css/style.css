@@ -248,10 +248,6 @@ ul { list-style: none; }
 .hero__body {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 48px;
-  align-items: end;
   width: 100%;
 }
 
@@ -287,45 +283,6 @@ ul { list-style: none; }
   flex-wrap: wrap;
   gap: 12px;
 }
-
-.hero__panel {
-  background: var(--white);
-  padding: 28px 32px;
-  min-width: 280px;
-  border-left: 3px solid var(--orange);
-}
-
-.hero__panel-label {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--gray-400);
-  margin-bottom: 20px;
-}
-
-.hero__panel-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 24px;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--gray-100);
-  font-size: 14px;
-}
-
-.hero__panel-row:last-child { border-bottom: none; }
-
-.hero__panel-row span { color: var(--gray-600); }
-
-.hero__panel-row strong {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--navy);
-  white-space: nowrap;
-}
-
-.hero__panel-ok { color: var(--blue) !important; }
 
 /* Dores — reportagem */
 .dores .section-head {
@@ -729,14 +686,6 @@ ul { list-style: none; }
 
 /* Responsivo */
 @media (max-width: 1024px) {
-  .hero__body {
-    grid-template-columns: 1fr;
-  }
-
-  .hero__panel {
-    max-width: 360px;
-  }
-
   .dores__card-body {
     padding: 48px 40px;
   }
@@ -809,8 +758,6 @@ ul { list-style: none; }
     align-items: stretch;
   }
 
-  .hero__panel { min-width: unset; width: 100%; }
-
   .dores__card,
   .dores__card--reverse {
     grid-template-columns: 1fr;
@@ -848,13 +795,5 @@ ul { list-style: none; }
     flex-direction: column;
     gap: 12px;
     text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero__panel-row {
-    flex-direction: column;
-    gap: 4px;
-    align-items: flex-start;
   }
 }
