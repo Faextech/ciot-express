@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  const WHATSAPP_NUMBER = '5541988845124';
+  const WHATSAPP_NUMBER = '554197276315';
 
   const MESSAGES = {
     default: 'Olá! Vim pelo site da CIOT Express e quero organizar a gestão da minha empresa.',
