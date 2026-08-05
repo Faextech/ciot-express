@@ -13,7 +13,12 @@
     header: 'Olá! Vim pelo site da CIOT Express e quero falar com um especialista.',
     'cta-final': 'Olá! Quero organizar minha empresa com a CIOT Express.',
     float: 'Olá! Vim pelo site da CIOT Express.',
-    footer: 'Olá! Vim pelo site da CIOT Express e quero entrar em contato.'
+    footer: 'Olá! Vim pelo site da CIOT Express e quero entrar em contato.',
+    desafios: 'Olá! Vi a página de desafios da CIOT Express e quero ajuda com a parte administrativa da minha empresa.',
+    solucao: 'Olá! Vi a página de solução da CIOT Express e quero entender quais módulos fazem sentido para mim.',
+    diferenciais: 'Olá! Vi a página de diferenciais da CIOT Express e quero falar com um especialista.',
+    depoimentos: 'Olá! Vi os depoimentos no site da CIOT Express e quero saber como funciona.',
+    contato: 'Olá! Vim pela página de contato da CIOT Express e quero falar com um especialista.'
   };
 
   function whatsappUrl(source) {

@@ -4,28 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CIOT Express — Gestão administrativa para transportadores. Notas fiscais, financeiro e operação organizados por especialistas.">
+  <title>CIOT Express | Gestão para Transportadores</title>
+  <link rel="canonical" href="https://www.ciotexpress.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ciotexpress.com.br/">
   <meta property="og:title" content="CIOT Express Gestão para Transportadores">
   <meta property="og:description" content="Você cuida das entregas. Nós cuidamos da sua empresa.">
-  <title>CIOT Express | Gestão para Transportadores</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '785836377947630');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=785836377947630&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CIOT Express",
+    "url": "https://www.ciotexpress.com.br/",
+    "logo": "https://www.ciotexpress.com.br/assets/logo.svg",
+    "description": "Empresa privada de gestão administrativa para motoristas autônomos, agregados e pequenas frotas.",
+    "telephone": "+55-41-3528-3876",
+    "email": "contato@ciotexpress.com.br",
+    "areaServed": "BR",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-41-3528-3876",
+      "contactType": "customer service",
+      "availableLanguage": "Portuguese"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      { "@type": "SiteNavigationElement", "position": 1, "name": "Desafios", "url": "https://www.ciotexpress.com.br/desafios" },
+      { "@type": "SiteNavigationElement", "position": 2, "name": "Solução", "url": "https://www.ciotexpress.com.br/solucao" },
+      { "@type": "SiteNavigationElement", "position": 3, "name": "Diferenciais", "url": "https://www.ciotexpress.com.br/diferenciais" },
+      { "@type": "SiteNavigationElement", "position": 4, "name": "Depoimentos", "url": "https://www.ciotexpress.com.br/depoimentos" },
+      { "@type": "SiteNavigationElement", "position": 5, "name": "Contato", "url": "https://www.ciotexpress.com.br/contato" }
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <header class="header" id="header">
     <div class="wrap header__inner">
-      <a href="#" class="header__logo" aria-label="CIOT Express">
+      <a href="/" class="header__logo" aria-label="CIOT Express">
         <img class="header__logo-img header__logo-img--light" src="assets/logo-light.svg" alt="" width="170" height="32">
         <img class="header__logo-img header__logo-img--dark" src="assets/logo.svg" alt="" width="170" height="32">
       </a>
       <nav class="header__nav" id="nav">
-        <a href="#dores">Desafios</a>
-        <a href="#solucao">Solução</a>
-        <a href="#diferenciais">Diferenciais</a>
-        <a href="#depoimentos">Depoimentos</a>
+        <a href="/desafios">Desafios</a>
+        <a href="/solucao">Solução</a>
+        <a href="/diferenciais">Diferenciais</a>
+        <a href="/depoimentos">Depoimentos</a>
       </nav>
       <a href="#" class="header__cta" data-whatsapp="header">Falar com Especialista</a>
       <button class="header__toggle" id="menuBtn" aria-label="Menu" aria-expanded="false">
@@ -47,7 +99,7 @@
         <p class="hero__lead">Notas fiscais, financeiro, administração e operação. Tudo organizado por especialistas para você focar apenas em transportar e faturar.</p>
         <div class="hero__actions">
           <a href="#" class="btn btn--primary" data-whatsapp="hero-especialista">Falar com um Especialista</a>
-          <a href="#solucao" class="btn btn--ghost">Conhecer a CIOT Express</a>
+          <a href="/solucao" class="btn btn--ghost">Conhecer a CIOT Express</a>
         </div>
       </div>
     </div>
@@ -123,6 +175,9 @@
         </div>
       </article>
     </div>
+    <div class="wrap">
+      <a href="/desafios" class="section-more">Ver os desafios em detalhes</a>
+    </div>
   </section>
 
   <!-- SEÇÃO 3 — Solução -->
@@ -157,6 +212,9 @@
           <p>Documentos, contratos e obrigações sempre em ordem.</p>
         </div>
       </div>
+    </div>
+    <div class="wrap">
+      <a href="/solucao" class="section-more">Conhecer a solução completa</a>
     </div>
   </section>
 
@@ -225,6 +283,7 @@
           <p>Metodologia padronizada para notas, financeiro e documentos — sempre no mesmo ritmo.</p>
         </article>
       </div>
+      <a href="/diferenciais" class="section-more section-more--center">Ver todos os diferenciais</a>
     </div>
   </section>
 
@@ -267,6 +326,7 @@
           </footer>
         </blockquote>
       </div>
+      <a href="/depoimentos" class="section-more section-more--center">Ler os depoimentos completos</a>
     </div>
   </section>
 
@@ -288,9 +348,11 @@
       </div>
       <nav class="footer__nav">
         <h4>Empresa</h4>
-        <a href="#solucao">Solução</a>
-        <a href="#diferenciais">Diferenciais</a>
-        <a href="#depoimentos">Depoimentos</a>
+        <a href="/desafios">Desafios</a>
+        <a href="/solucao">Solução</a>
+        <a href="/diferenciais">Diferenciais</a>
+        <a href="/depoimentos">Depoimentos</a>
+        <a href="/contato">Contato</a>
       </nav>
       <nav class="footer__nav">
         <h4>Atendimento</h4>
@@ -298,6 +360,11 @@
         <a href="tel:+554135283876">(41) 3528-3876</a>
         <a href="mailto:contato@ciotexpress.com.br">contato@ciotexpress.com.br</a>
       </nav>
+    </div>
+    <div class="footer__disclaimer">
+      <div class="wrap">
+        <p>A CIOT Express é uma empresa privada de prestação de serviços e tecnologia para transportadores. Não somos órgão público e não possuímos vínculo, convênio ou representação junto ao Governo Federal, à ANTT ou a qualquer entidade governamental. Os serviços descritos neste site são de gestão administrativa, prestados por consultoria particular mediante contratação.</p>
+      </div>
     </div>
     <div class="footer__bar">
       <div class="wrap footer__bar-inner">
