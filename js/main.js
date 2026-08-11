@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  const WHATSAPP_NUMBER = '554135283876';
+  const WHATSAPP_NUMBER = '554134033080';
 
   const MESSAGES = {
     default: 'Olá! Vim pelo site da CIOT Express e quero organizar a gestão da minha empresa.',
@@ -18,7 +18,11 @@
     solucao: 'Olá! Vi a página de solução da CIOT Express e quero entender quais módulos fazem sentido para mim.',
     diferenciais: 'Olá! Vi a página de diferenciais da CIOT Express e quero falar com um especialista.',
     depoimentos: 'Olá! Vi os depoimentos no site da CIOT Express e quero saber como funciona.',
-    contato: 'Olá! Vim pela página de contato da CIOT Express e quero falar com um especialista.'
+    contato: 'Olá! Vim pela página de contato da CIOT Express e quero falar com um especialista.',
+    'plano-basico': 'Olá! Quero o Plano Básico (Emissão) da CIOT Express.',
+    'plano-2': 'Olá! Quero o Plano 2 (Emissão + Contabilidade) da CIOT Express.',
+    'pacote-3': 'Olá! Quero o Pacote 3 (Gestão Completa) da CIOT Express.',
+    planos: 'Olá! Vi os planos da CIOT Express e quero entender qual faz sentido para a minha operação.'
   };
 
   function whatsappUrl(source) {
@@ -76,9 +80,21 @@
     });
   }
 
+  function initFaq() {
+    document.querySelectorAll('.faq__item').forEach(function (item) {
+      item.addEventListener('toggle', function () {
+        if (!item.open) return;
+        document.querySelectorAll('.faq__item').forEach(function (other) {
+          if (other !== item) other.removeAttribute('open');
+        });
+      });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initWhatsApp();
     initHeader();
     initSmoothScroll();
+    initFaq();
   });
 })();
