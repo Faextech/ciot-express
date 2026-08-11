@@ -22,7 +22,8 @@
     'plano-basico': 'Olá! Quero o Plano Básico (Emissão) da CIOT Express.',
     'plano-2': 'Olá! Quero o Plano 2 (Emissão + Contabilidade) da CIOT Express.',
     'pacote-3': 'Olá! Quero o Pacote 3 (Gestão Completa) da CIOT Express.',
-    planos: 'Olá! Vi os planos da CIOT Express e quero entender qual faz sentido para a minha operação.'
+    planos: 'Olá! Vi os planos da CIOT Express e quero entender qual faz sentido para a minha operação.',
+    faq: 'Olá! Vi as perguntas frequentes da CIOT Express e ainda tenho uma dúvida.'
   };
 
   function whatsappUrl(source) {
