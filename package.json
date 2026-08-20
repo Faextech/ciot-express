@@ -1,0 +1,10 @@
+{
+  "name": "ciot-express",
+  "private": true,
+  "scripts": {
+    "build:analytics": "esbuild js/analytics.entry.js --bundle --format=iife --outfile=js/analytics.js --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.6.1"
+  }
+}
